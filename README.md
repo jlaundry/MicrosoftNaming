@@ -4,7 +4,7 @@
 
 
 ```mermaid
-graph LR;
+graph TD;
 
     O365ATP[Office 365 ATP] --> DfO365[Defender for Office 365];
     MSE[Microsoft Security Essentials] --> WDAV[Windows Defender Anti-virus] --> WDATP[Windows Defender ATP] --> MDATP[Microsoft Defender ATP] --> MDfE[Microsoft Defender for Endpoint];
