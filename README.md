@@ -43,3 +43,12 @@ graph TD;
     D365FSCM-->D365F[Dynamics 365 Finance];
     D365FSCM-->D365SCM[Dynamics 365 Supply Chain Management];
 ```
+
+## Endpoint Management
+
+```mermaid
+graph TD;
+
+    Intune --> MEM[Microsoft Endpoint Manager];
+    SCCM[System Center Configuration Manager] --> MECM[Microsoft Endpoint Configuration Manager];
+```
