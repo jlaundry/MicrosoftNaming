@@ -3,7 +3,7 @@
 ## Dynamics
 
 ```mermaid
-graph LR;
+graph TD;
 
     AX[Dynamics AX];
     CRM[Dynamics CRM];
