@@ -52,3 +52,12 @@ graph TD;
     Intune --> MEM[Microsoft Endpoint Manager];
     SCCM[System Center Configuration Manager] --> MECM[Microsoft Endpoint Configuration Manager];
 ```
+
+## Identity
+
+```mermaid
+graph TD;
+
+    IIFP --> MIIS --> ILM --> FIM --> MIM;
+```
+
