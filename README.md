@@ -7,14 +7,15 @@
 graph LR;
 
     O365ATP[Office 365 ATP] --> DfO365[Defender for Office 365];
-    WD[Windows Defender] --> SCEP[System Center Endpoint Protection] --> WDATP[Windows Defender ATP] --> MDATP[Microsoft Defender ATP] --> MDfE[Microsoft Defender for Endpoint];
-    WATP[Windows ATP] --> AATP[Azure ATP] --> MDfI[Microsoft Defender for Identity];
+    MSE[Microsoft Security Essentials] --> WDAV[Windows Defender Anti-virus] --> WDATP[Windows Defender ATP] --> MDATP[Microsoft Defender ATP] --> MDfE[Microsoft Defender for Endpoint];
+    MSE --> SCEP[System Center Endpoint Protection];
+    WATA[Windows ATA] --> AATP[Azure ATP] --> MDfI[Microsoft Defender for Identity];
     ASC[Azure Security Center] --> ADfS[Azure Defender for Servers] --> MDfC[Microsoft Defender for Cloud];
     ASentinel[Azure Sentinel] --> Sentinel[Microsoft Sentinel];
     
     ASCfIoT[Azure Security Center for IoT] --> ADfIoT[Azure Defender for IoT];
     
-    ATPfSQL[Advanced Threat Protection for SQL] --> ADfSQL[Azure Defender for SQL];
+    ATPfSQL[Advanced Threat Protection for SQL] --> ADfSQL[Azure Defender for SQL] --> MDfC;
     
     MCAS[Microsoft Cloud App Security] --> MDfCA[Microsoft Defender for Cloud Apps];
 
