@@ -15,7 +15,8 @@ graph TD;
     O365ATP[Office 365 ATP] --> DfO365[Defender for Office 365];
     MSE[Microsoft Security Essentials] --> WDAV[Windows Defender Anti-virus] --> WDATP[Windows Defender ATP] --> MDATP[Microsoft Defender ATP] --> MDfE[Microsoft Defender for Endpoint];
     MSE --> SCEP[System Center Endpoint Protection];
-    WATA[Windows ATA] --> AATP[Azure ATP] --> MDfI[Microsoft Defender for Identity];
+    WATA[Windows Advanced Threat Analytics] --> AATP[Azure Advanced Threat Protection] --> MDfI[Microsoft Defender for Identity];
+    WATA --> MATP[Microsoft Advanced Threat Protection];
 
     ASentinel[Azure Sentinel] --> Sentinel[Microsoft Sentinel];
     
