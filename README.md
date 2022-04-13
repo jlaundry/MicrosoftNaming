@@ -30,6 +30,30 @@ graph LR;
 
 ```
 
+```mermaid
+gantt
+dateFormat  YYYY-MM
+title Microsoft Security products
+excludes weekdays 2010-01-01
+
+section SIEM
+Azure Sentinel                            :done,   asentinel, 2019-09, 2021-11
+Microsoft Sentinel                        :active, msentinel, 2021-11, 2023-12
+
+section CASB
+Microsoft Cloud App Security (MCAS)       :done,        mcas, 2016-04, 2021-11
+Microsoft Defender for Cloud Apps (MDfCA) :active,     mdfca, 2021-11, 2023-12
+
+section Server Workload
+Azure Security Center (ASC)               :done,         asc, 2016-07, 2021-11
+Azure Defender                            :done,      azured, 2016-07, 2021-11
+Microsoft Defender for Cloud (MDfC)       :active,      mdfc, 2021-11, 2023-12
+
+section Identity
+Microsoft Advanced Threat Protection      :done,        matp, 2016-07, 2026-01
+
+```
+
 ## Dynamics
 
 ```mermaid
