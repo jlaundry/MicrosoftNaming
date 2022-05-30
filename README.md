@@ -14,7 +14,7 @@ graph LR;
 
     O365ATP[Office 365 ATP] --> DfO365[Defender for Office 365];
     MSE[Microsoft Security Essentials] --> WDAV[Windows Defender Anti-virus] --> WDATP[Windows Defender ATP] --> MDATP[Microsoft Defender ATP] --> MDfE[Microsoft Defender for Endpoint];
-    MSE --> SCEP[System Center Endpoint Protection];
+    MSE --> MFEP[Microsoft Forefront Endpoint Protection] --> SCEP[System Center Endpoint Protection];
     WATA[Windows Advanced Threat Analytics] --> AATP[Azure Advanced Threat Protection] --> MDfI[Microsoft Defender for Identity];
     WATA --> MATP[Microsoft Advanced Threat Protection];
 
