@@ -50,7 +50,9 @@ Azure Defender                            :done,      azured, 2016-07, 2021-11
 Microsoft Defender for Cloud (MDfC)       :active,      mdfc, 2021-11, 2023-12
 
 section Identity
-Microsoft Advanced Threat Protection      :done,        matp, 2016-07, 2026-01
+Windows Advanced Threat Analytics (WATA)  :done,        wata, 2016-05, 2021-01
+Azure Advanced Threat Protection (AATP)   :done,        aatp, 2018-03, 2020-11
+Microsoft Defender for Identity (MDfI)    :active,      mdfi, 2020-11, 2026-01
 
 ```
 
