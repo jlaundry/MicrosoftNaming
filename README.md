@@ -12,7 +12,9 @@ Rules:
 ```mermaid
 graph LR;
 
+    FOPE[Forefront Online Protection for Exchange] --> EOP[Exchange Online Protection];
     O365ATP[Office 365 ATP] --> DfO365[Defender for Office 365];
+    
     MSE[Microsoft Security Essentials] --> WDAV[Windows Defender Anti-virus] --> WDATP[Windows Defender ATP] --> MDATP[Microsoft Defender ATP] --> MDfE[Microsoft Defender for Endpoint];
     MSE --> MFEP[Microsoft Forefront Endpoint Protection] --> SCEP[System Center Endpoint Protection];
     WATA[Windows Advanced Threat Analytics] --> AATP[Azure Advanced Threat Protection] --> MDfI[Microsoft Defender for Identity];
@@ -23,7 +25,8 @@ graph LR;
     ASC[Azure Security Center] --> ADfS[Azure Defender for Servers] --> MDfC[Microsoft Defender for Cloud];
     ATPfSQL[Advanced Threat Protection for SQL] --> ADfSQL[Azure Defender for SQL] --> MDfC;
     
-    MCAS[Microsoft Cloud App Security] --> MDfCA[Microsoft Defender for Cloud Apps];
+    Adallom --> MCAS[Microsoft Cloud App Security];
+    MCAS --> MDfCA[Microsoft Defender for Cloud Apps];
     
     ASCfIoT[Azure Security Center for IoT] --> ADfIoT[Azure Defender for IoT] --> MDfIoT[Microsoft Defender for IoT];
     CyberX --> ADfIoT
@@ -41,6 +44,7 @@ Azure Sentinel                            :done,   asentinel, 2019-09, 2021-11
 Microsoft Sentinel                        :active, msentinel, 2021-11, 2023-12
 
 section CASB
+Adallom                                   :done,     adallom, 2013-11, 2016-04
 Microsoft Cloud App Security (MCAS)       :done,        mcas, 2016-04, 2021-11
 Microsoft Defender for Cloud Apps (MDfCA) :active,     mdfca, 2021-11, 2023-12
 
