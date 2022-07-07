@@ -54,6 +54,12 @@ Windows Advanced Threat Analytics (WATA)  :done,        wata, 2016-05, 2021-01
 Azure Advanced Threat Protection (AATP)   :done,        aatp, 2018-03, 2020-11
 Microsoft Defender for Identity (MDfI)    :active,      mdfi, 2020-11, 2026-01
 
+section Email
+Forefront Online Protection for Exchange (FOPE)  :done,      fope, 2011-04, 2013-11
+Exchange Online Protection (EOP)                 :active,     eop, 2013-11, 2026-01
+Office 365 ATP (O365ATP)                         :done,   o365atp, 2018-03, 2020-09
+Microsoft Defender for Office 365 (MDfO365)      :active,    mdfi, 2020-09, 2026-01
+
 ```
 
 ## Dynamics
