@@ -104,7 +104,7 @@ graph TD;
 graph TD;
 
     Intune --> MEM[Microsoft Endpoint Manager];
-    SCCM[System Center Configuration Manager] --> MECM[Microsoft Endpoint Configuration Manager];
+    SCCM[System Center Configuration Manager] --> MECM[Microsoft Endpoint Configuration Manager]  --> MCM[Microsoft Configuration Manager];
 ```
 
 ## Identity
