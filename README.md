@@ -86,7 +86,7 @@ graph TD;
     NAV[Dynamics NAV];
     SL[Dynamics SL];
     
-    CRM --> D365CS[Dynamics 365 Customer Service];
+    CRM --> D365CE[Dynamics 365 Customer Engagement];
     
     GPD[Great Plains Dynamics and eEnterprise]-->GP;  
 
