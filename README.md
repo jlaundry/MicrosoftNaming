@@ -6,6 +6,28 @@ Rules:
 
 1. These graphs are about the Product Name only. Integrations between products come and go, and that's a whole other repo waiting to be created.
 
+## Core Suite
+
+```mermaid
+gantt
+dateFormat  YYYY-MM
+title Core Suite
+excludes weekdays 2010-01-01
+
+section Identity
+Azure AD                                  :done,   aad,     2013-04, 2021-11
+Entra ID                                  :active, entraid, 2023-08, 2023-12
+
+section Productivity
+Office 365                                :done,   o365,    2010-10, 2022-11
+Microsoft 365 (consumer)                  :done,   m365c,   2020-04, 2022-11
+Microsoft 365                             :active, m365,    2022-11, 2023-12
+```
+
+Sources:
+  * https://weblogs.asp.net/scottgu/windows-azure-active-directory-general-availability-new-backup-service-web-site-monitoring-and-diagnostic-improvements
+  * https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/azure-ad-is-becoming-microsoft-entra-id/ba-p/2520436
+
 ## Defender
 
 
